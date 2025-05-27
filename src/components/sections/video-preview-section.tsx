@@ -21,7 +21,7 @@ export const VideoPreviewSection: FC = () => {
           autoPlay
           data-ai-hint="video player"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/20">
           <Button
             variant="ghost"
             size="icon"
@@ -30,7 +30,7 @@ export const VideoPreviewSection: FC = () => {
           >
             <Play className="h-10 w-10 fill-primary text-primary" />
           </Button>
-        </div>
+        </div> */}
         <div className="absolute bottom-4 right-4">
           <Button
             variant="secondary"
